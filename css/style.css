@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FF9706;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main{
+    background: linear-gradient(0deg, rgba(255, 205, 28, 0.2), rgba(255, 205, 28, 0.2)), #FF8A00;;
+}
+
+.header{
+    padding: 40px 0px;
+    background: white;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    vertical-align: bottom;
+}
+
+.menu{
+    margin-left: 323px;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+.menu-item{
+    margin-right: 30px;
+}
+
+.menu-item a{
+    color: #FF9706;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-item a:hover{
+    border-bottom: 2px solid #FF9706;
+}
+
+.header-button{
+    margin-left: 70px;
+    background: #fff;
+    width: 237px;
+    height: 42px;
+    box-sizing: border-box;
+    padding: 9px 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #FF9706;
+    border-radius: 60px;
+    cursor: pointer;
+    outline: none;
+    color: #FF9706;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.header-button:hover{
+    background: #FF9706;
+    color: #fff;
+}
+
+.main-content{
+    padding-top: 181px;
+    padding-bottom: 229px;
+}
+
+.main-content .container{
+    position: relative;
+}
+
+.main-info{
+    position: absolute;
+    max-width: 573px;
+    top: 46px;
+    left: 600px;
+}
+
+.main-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 37px;
+    text-align: center;
+}
+
+.main-action-button{
+    background: #fff;
+    width: 237px;
+    height: 42px;
+    box-sizing: border-box;
+    padding: 9px 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #FF9706;
+    border-radius: 60px;
+    cursor: pointer;
+    outline: none;
+    color: #FF9706;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    margin-left: 160px;
+}
+
+.main-action-button:hover{
+    background: #FF9706;
+    color: #fff;
+    border: 4px solid #fff;
+}
